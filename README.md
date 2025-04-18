@@ -28,7 +28,7 @@ TARGET_INSTITUTIONS = [ "Stanford", "Stanford University", "Princeton University
 
 🚀 Installation
 
-Clone this repository: git clone https://github.com/Livia-945/arXiv_digest.git cd arxiv-llm-digest
+Clone this repository: git clone https://github.com/lilyyang1014/arxiv_digest.git
 
 Install dependencies: pip install arxiv pymupdf google-generativeai
 
