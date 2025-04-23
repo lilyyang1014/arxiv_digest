@@ -5,12 +5,10 @@ I am an automated tool that searches, filters, and summarizes the latest Large L
 
 🌟 Features
 
-✅ Smart Keyword Filtering: Automatically identifies LLM-related papers using predefined keywords
-✅ Institution Recognition: Focuses on research from top academic and industry labs
-✅ Domain Detection: Identifies papers with authors from prominent research institutions via email domains
-✅ PDF Content Analysis: Analyzes paper content to confirm institutional affiliation
-✅ AI-Generated Summaries: Uses Gemini 2.0 Flash to generate concise summaries of selected papers
-✅ Automatic Report Generation: Creates consolidated markdown reports of filtered papers
+✅ Smart Keyword Filtering: Automatically identifies LLM-related papers using predefined keywords  
+✅ Institution Recognition: Focuses on research from top academic and industry labs  
+✅ AI-Generated Summaries: Uses Gemini 2.0 Flash to generate concise summaries of selected papers  
+✅ Automatic Report Generation: Creates consolidated markdown reports of filtered papers  
 
 📋 How It Works The system follows a multi-stage filtering pipeline:
 
@@ -18,18 +16,19 @@ Initial arXiv Search: Queries arXiv for Computer Science papers updated within a
 
 🛠️ Configuration The script uses several configuration variables that can be modified:
 
-LLM-related keywords for initial filtering
-KEYWORDS = ['llm', 'large language model', 'language model', 'foundation model', 'pretrained language model', 'transformer', 'generative ai' ]
+LLM-related keywords for initial filtering  
+KEYWORDS = ['llm', 'large language model', 'language model', 'foundation model', 'pretrained language model', 'transformer', 'generative ai' ]  
 
-Target date range for paper search (YYYYMMDDHHMMSS format)
-TARGET_DATE_START = "20250411000000" TARGET_DATE_END = "20250411235959"
+Target date range for paper search (YYYYMMDDHHMMSS format)  
+TARGET_DATE_START = "20250411000000"  
+TARGET_DATE_END = "20250411235959"  
 
 Target institutions for affiliation matching
 TARGET_INSTITUTIONS = [ "Stanford", "Stanford University", "Princeton University", "UC Berkeley", "University of California, Berkeley", "Berkeley", "CMU", "Carnegie Mellon University", "Carnegie Mellon", "NVIDIA Research", "NVIDIA", "Google Deepmind", "Deepmind", "Google", "OpenAI", "University of Washington", "Cornell University", "University of Illinois Urbana-Champaign", "UIUC", "Allen Institute for AI", "AI2" ]
 
 📦 Requirements
 
-✅Python 3.7+
+✅Python 3.7+  
 ✅Required libraries: arxiv PyMuPDF (fitz) google-generativeai re os time shutil sys
 
 🚀 Installation
