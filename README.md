@@ -7,7 +7,7 @@ Too many papers, too little time? I'm your automated assistant, diving into arXi
 
 ✅ Smart Keyword Filtering: Automatically identifies LLM-related papers using predefined keywords  
 ✅ Top Labs Only: The Cutting Edge!I focus on research from the best academic and industry minds  
-✅ AI-Generated Summaries: Gemini 2.0 Flash Does the Reading!** Get concise paper takeaways in a flash!  
+✅ AI-Generated Summaries: Gemini 2.0 Flash Does the Reading!Get concise paper takeaways in a flash!  
 ✅ Automatic Report: Creates consolidated markdown reports of filtered papers 
 
 🌟 Future Plan  
@@ -73,7 +73,9 @@ FIXED_PROJECT_PATH=<your_project_path>
 
 📝 Output The script creates a folder structure with:
 
-A base directory named by the date (MMDDYYYY format) All initially filtered papers in the base directory A "Final_Selected_Papers" subdirectory containing only institution-matched papers A consolidated markdown report with paper details and AI-generated summaries
+A base directory named by the date (MMDDYYYY format)  
+All initially filtered papers in the base directory A "Final_Selected_Papers" subdirectory containing only institution-matched papers  
+A consolidated markdown report with paper details and AI-generated summaries  
 
 
 🔒 Privacy & Ethics This tool is designed for research purposes only. 
