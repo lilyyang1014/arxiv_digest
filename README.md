@@ -1,7 +1,7 @@
 # arxiv_digest
 ArXiv LLM Research Digest
 
-An automated tool that searches, filters, and summarizes the latest Large Language Model (LLM) research papers from arXiv, with a focus on publications from top institutions.
+I am an automated tool that searches, filters, and summarizes the latest Large Language Model (LLM) research papers from arXiv, with a focus on publications from top institutions.
 
 🌟 Features
 
