@@ -48,17 +48,27 @@ TARGET_INSTITUTIONS = [ "Stanford", "Stanford University",
 
 🚀 Installation
 
-Clone this repository: git clone https://github.com/lilyyang1014/arxiv_digest.git
+Clone this repository: 
+```bash
+git clone https://github.com/lilyyang1014/arxiv_digest.git
+```
 
-Install dependencies: pip install arxiv pymupdf google-generativeai
+Install dependencies: 
+```bash
+pip install arxiv pymupdf google-generativeai
+```
 
 Set up your Google API key:
 
-Get a Gemini API key from Google AI Studio Update the GOOGLE_API_KEY variable in the script
+```bash
+GOOGLE_API_KEY=<your_api_key_here>
+```
 
 Configure your project path:
 
-Update the FIXED_PROJECT_PATH variable to your desired storage location
+```bash
+FIXED_PROJECT_PATH=<your_project_path>
+```
 
 
 📝 Output The script creates a folder structure with:
