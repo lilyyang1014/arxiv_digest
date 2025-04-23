@@ -18,14 +18,26 @@ I am still a little baby but I'm growing and will become much more powerful. Use
 
 ```python
 # LLM-related keywords for initial filtering  
-KEYWORDS = ['llm', 'large language model', 'language model', 'foundation model', 'pretrained language model', 'transformer', 'generative ai' ]  
+KEYWORDS = ['llm', 'large language model', 'language model',
+            'foundation model', 'pretrained language model',
+            'transformer', 'generative ai'
+            ]  
 
 # Target date range for paper search (YYYYMMDDHHMMSS format)  
 TARGET_DATE_START = "20250411000000"  
 TARGET_DATE_END = "20250411235959"  
 
 # Target institutions for affiliation matching
-TARGET_INSTITUTIONS = [ "Stanford", "Stanford University", "Princeton University", "UC Berkeley", "University of California, Berkeley", "Berkeley", "CMU", "Carnegie Mellon University", "Carnegie Mellon", "NVIDIA Research", "NVIDIA", "Google Deepmind", "Deepmind", "Google", "OpenAI", "University of Washington", "Cornell University", "University of Illinois Urbana-Champaign", "UIUC", "Allen Institute for AI", "AI2" ]
+TARGET_INSTITUTIONS = [ "Stanford", "Stanford University",
+                        "Princeton University", "UC Berkeley",
+                        "University of California, Berkeley",
+                        "Berkeley", "CMU", "Carnegie Mellon University",
+                        "Carnegie Mellon", "NVIDIA Research", "NVIDIA",
+                        "Google Deepmind", "Deepmind", "Google", "OpenAI",
+                        "University of Washington", "Cornell University",
+                        "University of Illinois Urbana-Champaign", "UIUC",
+                        "Allen Institute for AI", "AI2"
+                        ]
 ```
 
 📦 Requirements
