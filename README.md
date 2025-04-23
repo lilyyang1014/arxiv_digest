@@ -84,4 +84,4 @@ A consolidated markdown report with paper details and AI-generated summaries
 
 🙋‍♀️ Author: Liuying Yang, Wei Li
 
-🤝 Contributing Contributions are welcome! Please feel free to submit a Pull Request.
+🤝 Contributions are welcome! Please feel free to submit a Pull Request.
